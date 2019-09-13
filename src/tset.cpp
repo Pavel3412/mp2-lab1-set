@@ -1,4 +1,4 @@
-// ННГУ, ВМК, Курс "Методы программирования-2", С++, ООП
+﻿// ННГУ, ВМК, Курс "Методы программирования-2", С++, ООП
 //
 // tset.cpp - Copyright (c) Гергель В.П. 04.10.2001
 //   Переработано для Microsoft Visual Studio 2008 Сысоевым А.В. (19.04.2015)
@@ -21,7 +21,7 @@ TSet::TSet(const TBitField &bf) : BitField(-1)
 {
 }
 
-TSet::operator TBitField()
+TSet::operator TBitField();
 {
 }
 
